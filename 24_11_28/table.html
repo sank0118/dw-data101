@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table</title>
+    <style>
+        table,
+        th,
+        td {
+          border: 1px solid #ccc;
+          border-collapse: collapse;
+        }
+        th,
+        td {
+          padding: 10px 20px;
+        }
+      </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        멋있는 테이블 이름
+      </caption>
+
+      <tr>
+        <th>th1</th>
+        <th>th2</th>
+        <th>th3</th>
+        <th>th4</th>
+        <th>th5</th>
+        <th>th6</th>
+        <tr>
+            <td rowspan="2">tb1</td>
+            <td colspan="2">tb2</td>
+            <td rowspan="2">tb4</td>
+            <td >tb5</td>
+            <td>tb6</td>
+            
+        </tr>
+        <tr>
+            <td>tb2</td>
+            <td>tb3</td>
+            <td>tb5</td>
+            <td>tb6</td>
+            
+        </tr>
+      </tr>
+    </table>
+  </body>
+</html>

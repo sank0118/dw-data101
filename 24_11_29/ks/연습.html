@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>넷픨릭스</title>
+    <style>
+        header,
+        ul {
+          display: flex;
+          column-gap: 10px;
+          list-style: none;
+        }
+        header {
+          justify-content: space-between;
+        }
+        button {
+          cursor: pointer;
+        }
+        header button {
+          background-color: transparent;
+          border: none;
+        }
+        header > ul button {
+          padding: 10px;
+          border-radius: 8px;
+          background-color: whitesmoke;
+        }
+        header img {
+          width: 40px;
+        }
+        a {
+          text-decoration: none;
+        }
+        ul > li > a:hover {
+          color: royalblue;
+        }
+        a:visited {
+          color: inherit;
+        }
+        header {
+          border: 1px solid;
+        }
+        main > div {
+          width: 100%;
+          height: 100vh;
+        }
+        footer {
+          padding: 20px;
+          background-color: whitesmoke;
+        }
+      </style
+  </head>
+  <body>
+    <header>
+      <button>
+        <img
+          src="data:image/png;base64,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"
+          alt="로고"
+        />
+      </button>
+        <ul> 
+         <li><button>한국어</button></li>
+         <li><button>로그인</button></li>
+        </ul>
+    </header>
+    <ul>
+      <li><a href="">지금뜨는 컨텐츠</a></li>
+      <li><a href="">멤버쉽</a></li>
+      <li><a href="">지금 가입해야 하는 이유</a></li>
+      <li><a href="">자주 묻는 질문</a></li>
+    </ul>
+    <main>
+      <div>지금뜨는 컨텐츠</div>
+      <div>멤버쉽</div>
+      <div>지금 가입해야하는 이유</div>
+      <div>자주 묻는 질문</div>
+    </main>
+    <footer>
+      <a href="https://github.com/sank0118/dw-data101">멋진 강산</a>
+      <a href="https://www.netflix.com/kr/">진짜 넷플릭스</a>
+    </footer>
+  </body>
+</html>
