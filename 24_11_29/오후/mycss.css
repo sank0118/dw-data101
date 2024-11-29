@@ -1,0 +1,41 @@
+
+body {
+  margin: 0;
+}
+
+.header {
+  width: 1000px;
+  height: 100px;
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
+.wrap {
+  width: 1000px;
+  height: 600px;
+  border: 1px solid red;
+}
+.left {
+  box-sizing: border-box;
+  width: 495px;
+  height: 400px;
+  border: 1px solid blue;
+  display: inline-block;
+  padding-right: 25px;
+}
+.right {
+  width: 495px;
+  height: 400px;
+  border: 1px solid green;
+  display: inline-block;
+ 
+ 
+}
+.left_box{
+    height: 200px;
+    background: pink;
+   
+}
+.right_box{
+    height: 200px;
+    background-color: yellow;
+}
