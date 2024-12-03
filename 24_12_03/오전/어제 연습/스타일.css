@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+}
+header > ul {
+  display: flex;
+  list-style-type: none;
+  column-gap: 10px;
+}
+footer {
+  height: 200px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  color: indianred;
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+a:hover {
+  color: royalblue;
+}
+table,
+tr,
+td,
+th {
+  border: 1px solid;
+  border-collapse: collapse;
+}

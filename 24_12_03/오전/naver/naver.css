@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+form {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+ul button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: gray;
+}
+ul button:hover {
+  color: rgb(68, 190, 68);
+}
+fieldset {
+  margin: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 20px;
+  border-radius: 8px;
+}
+div {
+  display: flex;
+  flex-direction: column;
+}
+div > input {
+  height: 50px;
+  padding: 0 10px;
+}
+div > label {
+  font-size: 12px;
+  text-align: left;
+}
+fieldset > input {
+  height: 50px;
+  border-radius: 8px;
+  background-color: rgb(68, 190, 68);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.input {
+}
+.input label {
+  display: none;
+}
+.input.email input {
+  border: 2px solid lightgray;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-top: none;
+}
+.input.pw {
+  border: 2px solid lightgray;
+}
