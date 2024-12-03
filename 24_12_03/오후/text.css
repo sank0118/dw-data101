@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#main {
+  width: 1000px;
+}
+.section {
+  width: 400px;
+}
+.section.box2 {
+  width: 100%;
+}
+.text1 {
+  margin-left: 50px;
+}
+.text2 {
+  margin-left: 490px;
+  width: 400px;
+}
