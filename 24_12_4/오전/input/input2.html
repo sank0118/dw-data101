@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="input.css" />
+  </head>
+  <body>
+    <main>
+      <form action="">
+        <fieldset>
+          <legend>배송정보</legend>
+          <div>
+            <label:text id="id">아이디</label:text>
+            <input type="text" id="id" />
+          </div>
+          <div>
+            <label:text id="email">이메일</label:text>
+            <input type="email" id="email" />
+          </div>
+          <div>
+            <label:text id="pw">비밀번호</label:text>
+            <input type="password" id="pw" />
+          </div>
+          <div>
+            <label:text id="pwc">비밀번호 확인</label:text>
+            <input type="password" id="pwc" />
+          </div>
+          <div>
+            <label:text id="path">가입경로 확인</label:text>
+            <select id="path">
+              <option>가입 경로 보기</option>
+              <option value="sns">sns</option>
+              <option value="지인">지인</option>
+            </select>
+          </div>
+          <div>
+            <label:text id="m">아이디</label:text>
+            <textarea id="m" cols="20" rows="5"></textarea>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>이벤트와 새로운 소식</legend>
+          <input type="radio" name="email" id="ey" />
+          <label for="ey">메일 수신</label>
+
+          <input type="radio" name="email" id="en" />
+          <label for="en">메일 수신 안함</label>
+        </fieldset>
+        <ul>
+          <li><button>가입하기</button></li>
+          <li><button>취소</button></li>
+        </ul>
+      </form>
+    </main>
+  </body>
+</html>
