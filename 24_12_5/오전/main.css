@@ -1,0 +1,21 @@
+div.img {
+  border: 1px solid blue;
+  position: relative;
+}
+div.img .ab {
+  position: absolute;
+}
+div.img h1 {
+  top: 50px;
+  left: 50px;
+}
+
+div.img div {
+  bottom: 50px;
+  left: 50px;
+}
+div.img img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}

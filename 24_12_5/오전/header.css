@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(42, 42, 42);
+  color: whitesmoke;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+}
+button.globe {
+  height: 36px;
+  border-radius: 18px;
+  cursor: pointer;
+  border: 1px solid whitesmoke;
+  color: white;
+  background-color: transparent;
+}
+button.globe img {
+  width: 16px;
+}
+button.login {
+  height: 36px;
+  border-radius: 18px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  transition: all 0.3s;
+}
+button.login:hover {
+  background-color: whitesmoke;
+}
+button.title {
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(255, 59, 25);
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+header > ul {
+  display: flex;
+  column-gap: 10px;
+}
