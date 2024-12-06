@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  height: 20px;
+}
+.flex {
+  display: flex;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  column-gap: 20px;
+}
+img {
+  width: 20px;
+  height: 20px;
+}
+button {
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+}
+button:hover {
+  background-color: lightgray;
+  border-radius: 20px;
+  width: 35px;
+  height: 35px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.p {
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}

@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+#header {
+  background-color: aqua;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+}
+.menu {
+  padding: 0 30px;
+}
+#move {
+  position: fixed;
+  left: 100px;
+  bottom: 150px;
+  border: 1px solid black;
+  border-radius: 20px;
+}

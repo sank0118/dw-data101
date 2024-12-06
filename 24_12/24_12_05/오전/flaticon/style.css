@@ -2,30 +2,37 @@
   margin: 0;
   padding: 0;
 }
-header {
-  display: flex;
-  background-color: rgb(16, 16, 69);
-  height: 60px;
-}
+header,
+ul,
 .wrap {
   display: flex;
   align-items: center;
+  column-gap: 10px;
 }
+
 ul {
-  display: flex;
   list-style-type: none;
-  column-gap: 20px;
 }
+
+header {
+  background-color: rgb(6, 26, 82);
+  height: 60px;
+}
+
 header button {
-  background-color: transparent;
   color: whitesmoke;
+  background-color: transparent;
   cursor: pointer;
   border: none;
+  height: 60px;
+  padding: 0 10px;
 }
+
 header > .wrap {
   justify-content: space-between;
   width: 100%;
 }
+
 header img {
   width: 20px;
   height: 20px;

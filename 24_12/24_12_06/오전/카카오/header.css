@@ -1,0 +1,40 @@
+/* ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.f {
+  display: flex;
+}
+div.f {
+  justify-content: space-between;
+}
+li {
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+} */
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.f {
+  display: flex;
+}
+div.f {
+  justify-content: space-between;
+}
+li {
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
