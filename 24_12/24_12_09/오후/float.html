@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* * {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        box-sizing: border-box;
+      } */
+      #box1 {
+        background-color: red;
+        /* height: 40px; */
+        clear: both;
+      }
+      #outBox::before {
+        content: "abc";
+      }
+      #box1::after {
+        /* ::after 가상선택자  */
+        content: "" /* after에 값이 들어갈수 있는 자리만  확보 */;
+        clear: both;
+        display: table;
+      }
+      .divBox {
+        float: left;
+        width: 100px;
+        border: 1px solid;
+      }
+      .child {
+        float: left;
+      }
+      .child:nth-child(3) {
+        float: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box1">
+      <div class="divBox">메뉴1</div>
+      <div class="divBox">메뉴2</div>
+      <div class="divBox">메뉴3</div>
+      <div class="divBox">메뉴4</div>
+    </div>
+    <div id="outBox">나는 메뉴보다 아래쪽에 있어야 돼</div>
+    <div>나는 나는</div>
+    <div>나는 나는</div>
+    <div id="floatBox">
+      <div class="child">박스1</div>
+      <div class="child">박스2</div>
+      <div class="child">박스3</div>
+    </div>
+    <div id="outBox2">나는 박스 밖이다</div>
+  </body>
+</html>
+<!-- 
+  카멜 표기법 -> 변수, 함수(메서드), id 
+  두번쨰단어부터의 첫글자를 대문자로 표기
+  ex) tableBlackWhite
+  
+  스네이크 표기법 -> 데이터베이스 컬럼, class
+  단어 사이사이에 _를 붙여서 표기
+  ex)table_black_white
+
+  헝가리안 표기법
+  이름에 접두어를 포함하여 짓는다.
+  ex)number_age, str_birth
+  
+  파스칼 표기법 -> class명, table, 함수형객체형(js 기준)
+  첫번째 단어부터 첫글자를 대문자로 표기
+  TableBlackWhite, Table_Black_White
+  -->

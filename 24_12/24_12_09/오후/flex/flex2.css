@@ -1,0 +1,24 @@
+.item {
+  height: 100px;
+  width: 100px;
+}
+.orange {
+  background-color: orange;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.pink {
+  background-color: pink;
+}
+#wrap1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 800px;
+  border: 1px solid;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex</title>
+    <link rel="stylesheet" href="flex1.css" />
+  </head>
+  <body>
+    <h3>flex 기본</h3>
+    <p>
+      flex는 두개의 축이 존재<br />
+
+      주축: flex의 기본이 되는 축<br />
+      justify-content: 왼쪽에서 오른쪽방향<br />
+      start, center, end <br />
+      space-around - 양쪽 끝에 살짝 띄우고 자식 태그들 상 간격은 동일하게<br />
+      space-between - 양쪽 끝에 붙이고 태그들 사이 간격 동일하게<br />
+      space-evenly - 모든 간격이 동일하게<br />
+      <br />
+      교차축(수직):flex의 item 태그들(자식태그)의 축<br />
+      align-items : 위에서 아래 방향<br />
+      start, center, end
+    </p>
+    <div id="wrap1">
+      <div class="item orange"></div>
+      <div class="item green"></div>
+      <div class="item blue"></div>
+      <div class="item pink"></div>
+    </div>
+    <hr />
+    <h3>flex 교차축 이동</h3>
+    <div id="wrap2">
+      <div class="item orange"></div>
+      <div class="item green"></div>
+      <div class="item blue"></div>
+      <div class="item pink"></div>
+    </div>
+  </body>
+</html>

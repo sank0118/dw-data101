@@ -1,0 +1,40 @@
+#wrap1 {
+  display: flex;
+  width: 1000px;
+  border: 1px solid;
+  height: 250px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.item {
+  height: 100px;
+  width: 100px;
+}
+.orange {
+  background-color: orange;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.pink {
+  background-color: pink;
+}
+#wrap2 {
+  display: flex;
+  border: 1px solid;
+  width: 1000px;
+  height: 300px;
+  justify-content: space-between;
+}
+#wrap2 .orange {
+  align-self: end;
+}
+#wrap2 .green {
+  align-self: end;
+}
+#wrap2 .pink {
+  align-self: center;
+}
