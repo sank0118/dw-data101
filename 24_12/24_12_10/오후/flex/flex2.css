@@ -1,0 +1,106 @@
+.orange {
+  background-color: orange;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.pink {
+  background-color: pink;
+}
+.item {
+  height: 100px;
+  width: 100px;
+}
+#wrap1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 800px;
+  border: 1px solid;
+  justify-content: space-evenly;
+}
+#wrap1 .orange {
+  background-color: orange;
+}
+#wrap1 .green {
+  background-color: green;
+  align-self: start;
+}
+#wrap1 .blue {
+  background-color: blue;
+  align-self: end;
+}
+#wrap1 .pink {
+  background-color: pink;
+  align-self: start;
+}
+.item {
+  height: 100px;
+  width: 100px;
+}
+#wrap2 {
+  display: flex;
+  flex-direction: column;
+}
+#wrap2 .orange {
+  background-color: orange;
+  order: 3;
+}
+#wrap2 .green {
+  background-color: green;
+  order: 1;
+}
+#wrap2 .blue {
+  background-color: blue;
+}
+#wrap2 .pink {
+  background-color: pink;
+  order: 2;
+}
+#wrap3 {
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  align-items: center;
+}
+#wrap3 .item1 {
+  flex-grow: 1;
+}
+#wrap3 .item1:nth-child(1) {
+  flex-grow: 1;
+}
+#wrap3 .item1:nth-child(2) {
+  flex-grow: 3;
+}
+#wrap3 .item1:nth-child(3) {
+  flex-grow: 1;
+}
+#wrap3 .item1:nth-child(4) {
+  flex-grow: 1;
+}
+#wrap3 .orange {
+  background-color: orange;
+}
+#wrap3 .green {
+  background-color: green;
+}
+#wrap3 .blue {
+  background-color: blue;
+}
+#wrap3 .pink {
+  background-color: pink;
+}
+
+#wrap4 {
+  display: flex;
+}
+#wrap4 .item1 {
+  flex-basis: 150px;
+}
+#wrap4 .green {
+  width: 100px;
+  flex-shrink: 0;
+}

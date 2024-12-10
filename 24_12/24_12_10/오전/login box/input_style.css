@@ -1,0 +1,35 @@
+/* .input {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  text-align: left;
+  max-width: 300px;
+}
+.input label {
+  font-size: 12px;
+  color: gray;
+}
+.input form {
+  display: flex;
+}
+.input button.s {
+  height: 40px;
+  padding: 0 20px;
+  border: none;
+  border-radius: 0;
+  background-color: #16ba88;
+  color: white;
+}
+.input input {
+  border-radius: 0;
+  border: 1px solid lightgray;
+  outline: none;
+  border-right: none;
+  flex: 1;
+}
+.input input:focus {
+  border-color: #16ba88;
+}
+.input input::placeholder {
+  font-size: 10px;
+} */

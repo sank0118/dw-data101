@@ -1,0 +1,35 @@
+#flex1 {
+  display: flex;
+  background-color: aqua;
+  padding-left: 30px;
+}
+.item1 {
+  background-color: yellow;
+  border: 1px solid red;
+  padding: 15px 10px;
+}
+#flex2 {
+  display: flex;
+  background-color: aqua;
+  padding: 20px 0;
+}
+.item2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.item2:nth-child(3) {
+  font-size: 40px;
+}
+.y {
+  background-color: yellow;
+}
+.r {
+  background-color: red;
+}
+.g {
+  background-color: gray;
+}
+.b {
+  background-color: brown;
+}

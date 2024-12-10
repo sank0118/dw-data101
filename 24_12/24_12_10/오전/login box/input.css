@@ -1,0 +1,39 @@
+.input {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  max-width: 300px;
+  text-align: left;
+}
+.input form {
+  display: flex;
+}
+.input form button.b {
+  border-radius: 0;
+  border: none;
+  height: 40px;
+  background-color: #16ba88;
+  color: white;
+  cursor: pointer;
+  padding: 0 20px;
+}
+.input form input {
+  border: 0;
+  border: 1px solid lightgray;
+  border-right: 0;
+  padding-left: 10px;
+  outline: none;
+  flex: 1;
+}
+.input form input:focus {
+  border-color: #16ba88;
+}
+.input form input::placeholder {
+  color: gray;
+}
+.input label {
+  color: gray;
+  margin-bottom: 5px;
+  font-size: 12px;
+}

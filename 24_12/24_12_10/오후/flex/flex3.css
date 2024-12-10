@@ -1,0 +1,15 @@
+.item {
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+}
+#wrap1 {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+  height: 700px;
+  /* width: 700px; */
+}
