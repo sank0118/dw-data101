@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+#menu1 {
+  width: 700px;
+  padding: 20px;
+  background-color: aqua;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu_item {
+  padding: 20px 30px;
+  background-color: red;
+}
+#menu2 {
+  background-color: aqua;
+  width: 600px;
+  padding: 15px;
+  height: 100px;
+  display: flex;
+  column-gap: 10px;
+  align-items: start;
+}
+.item {
+  padding: 15px 40px;
+  background-color: gray;
+}
+.login,
+.signup {
+  align-self: end;
+}
