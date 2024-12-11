@@ -1,0 +1,15 @@
+.modal {
+  border: 1px solid #000;
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal div.r {
+  text-align: right;
+  width: 300px;
+}
+.modal div.r div {
+  text-align: left;
+}
