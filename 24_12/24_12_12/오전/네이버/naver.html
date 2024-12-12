@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="naver.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="login_box">
+      <p>네이버를 더 안전하고 편리하게 이용하세요</p>
+      <button class="naver" onclick="show()"><span>NAVER</span>로그인</button>
+      <ul class="quick_btns">
+        <li><button>아이디 찾기</button></li>
+        <li><button>비밀번호 찾기</button></li>
+        <li><button>회원가입</button></li>
+      </ul>
+    </div>
+
+    <div class="login_modal flex" id="modal">
+      <button onclick="hide()">X</button>
+      <form action="" class="flex">
+        <div class="input">
+          <input type="text" placeholder="아이디 혹은 전화번호" />
+          <input type="password" placeholder="비밀번호" />
+        </div>
+        <div class="check">
+          <input type="checkbox" />
+          <label for="">로그인 상태 유지</label>
+        </div>
+
+        <button type="button" class="naver">로그인</button>
+      </form>
+
+      <ul class="quick_btns">
+        <li><button>비밀번호 찾기</button></li>
+        <li><button>아이디 찾기</button></li>
+        <li><button>회원가입</button></li>
+      </ul>
+    </div>
+  </body>
+</html>

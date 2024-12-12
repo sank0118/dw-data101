@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+div.login_box,
+.login_modal {
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 300px;
+  margin: 0 auto;
+}
+div.login_box p,
+ul.quick_btns button {
+  font-size: 12px;
+}
+button.naver {
+  height: 40px;
+  border-radius: 3px;
+  background-color: rgb(44, 168, 44);
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+ul.quick_btns {
+  display: flex;
+  column-gap: 16px;
+  justify-content: center;
+}
+ul.quick_btns button {
+  color: gray;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+/* ------------------------------------------------- */
+div.login_modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+div.login_modal form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+div.login_modal form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.login_modal .input {
+  display: flex;
+  flex-direction: column;
+}
+.login_modal .input input {
+  height: 40px;
+  outline: none;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+.login_modal .input :first-child {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.login_modal .input :last-child {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.check {
+  background-color: whitesmoke;
+  display: flex;
+  column-gap: 5px;
+}
+
+.login_modal.flex {
+  row-gap: 20px;
+  /* display: none; */
+}

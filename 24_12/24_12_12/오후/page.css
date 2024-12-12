@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+img {
+  display: block;
+  width: 100%;
+}
+#wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+#header {
+  width: 100%;
+  margin-bottom: 50px;
+}
+#header .top {
+  padding-right: 15px;
+  text-align: right;
+}
+#header .top .top_texts {
+  display: flex;
+  justify-content: end;
+  padding: 7px 0;
+}
+#header .top .top_texts .top_text {
+  margin: 0 15px;
+  cursor: pointer;
+  position: relative;
+}
+#header .top .top_texts .top_text:nth-child(2)::before {
+  content: "";
+  border: 2px solid gray;
+  height: 20px;
+  position: absolute;
+  left: -15px;
+  cursor: default;
+}
+#header .top .top_texts .top_text:nth-child(2)::after {
+  content: "";
+  border: 2px solid gray;
+  height: 20px;
+  position: absolute;
+  right: -15px;
+  cursor: default;
+}
+
+#header .nav {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+#header .nav .menu_list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  font-size: 25px;
+}
+#header .nav .menu_list .menu {
+  cursor: pointer;
+  padding: 5px 25px;
+  position: relative;
+}
+#header .nav .sub_menu_list {
+  /* display: none; */
+  background-color: aqua;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  padding: 50px 0;
+  z-index: 2;
+  opacity: 0;
+}
+#header .nav .menu_list:hover ~ .sub_menu_list {
+  opacity: 1;
+}
+#header .nav .sub_menu_list .sub_menu {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#header .nav .menu_list .menu::before {
+  content: "";
+  border-bottom: 2px solid pink;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  transition: width 0.3s ease;
+}
+#header .nav .menu_list .menu:hover::before {
+  width: 100%;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+#main .img_box {
+  /* width: calc(25% - 5px); */
+  /* flex-grow: ; 비율, flex-shrink: ; 공간 부족 여부*/
+  flex: 1 1 calc(25% - 5px);
+}
+.img_box1 {
+  opacity: 0;
+}
+.img_box:hover ~ img_box1 {
+  z-index: 3;
+  display: block;
+}
